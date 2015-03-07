@@ -10,7 +10,7 @@ angular.module('rtfmApp')
             },
 
             getUsername: function() {
-                $window.localStorage.getItem('username');
+                return $window.localStorage.getItem('username');
             }
         };
 
